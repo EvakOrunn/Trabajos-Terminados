@@ -180,7 +180,7 @@ public class Invento implements Grabable {
 
     @Override
     public void mostrarRegistro() {
-        System.out.println(String.format("| %6d | %6d | %6d | %8.2f | %30s", this.codigoInventor, this.codigoInvento, this.patente, this.monto, this.denominacion));
+        System.out.println(String.format("| %14d | %13d | %9d | %7.2f | %30s |", this.codigoInventor, this.codigoInvento, this.patente, this.monto, this.denominacion));
     }
 
     @Override

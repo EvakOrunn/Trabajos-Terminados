@@ -216,10 +216,10 @@ public class Registro implements Grabable {
      */
     @Override
     public void mostrarRegistro() {
-//        System.out.println("Numero de orden: " + nroOrden);
+        // System.out.println("Numero de orden: " + nroOrden);
         datos.mostrarRegistro();
-//        System.out.println("Activo: " + getActivo());
-//        System.out.println("\t");
+        // System.out.println("Activo: " + getActivo());
+        // System.out.println("\t");
     }
 
     /**

@@ -88,7 +88,7 @@ public class Personal implements Grabable{
 
     @Override
     public void mostrarRegistro() {
-        System.out.println(String.format("| %6d | %20 |", this.codigoPersonal, this.apellidoNombre));
+        System.out.println(String.format("| %6d | %50s |", this.codigoPersonal, this.apellidoNombre));
     }
 
     @Override

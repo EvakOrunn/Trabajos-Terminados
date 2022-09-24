@@ -16,24 +16,25 @@ public class Principal {
         int op;
 
         // Inicializar los archivos
-        VuelosMenu.inicializarArchivo();
-        DestinosMenu.inicializarArchivo();
+        InventorMenu.inicializarArchivo();
+        InventoMenu.inicializarArchivo();
 
         do {
-            System.out.println("----------------------------------------------------");
-            System.out.println("MENU PRINCIPAL");
-            System.out.println("----------------------------------------------------");
-            System.out.println("1. Menu de vuelos");
-            System.out.println("2. Menu de destinos");
+            System.out.println(Consola.repeat("-", 34));
+            System.out.println("-" + Consola.repeat(" ", 9) + "MENU PRINCIPAL" + Consola.repeat(" ", 9) + "-");
+            System.out.println(Consola.repeat("-", 34));
+            System.out.println("1. Menu de Inventores");
+            System.out.println("2. Menu de Inventos");
             System.out.println("0. Salir");
+            System.out.println(Consola.repeat("-", 34));
             System.out.print("--> ");
             op = Consola.readInt();
             switch (op) {
                 case 1:
-                    VuelosMenu.menu();
+                    InventorMenu.menu();
                     break;
                 case 2:
-                    DestinosMenu.menu();
+                    InventoMenu.menu();
                     break;
             }
         } while (op != 0);

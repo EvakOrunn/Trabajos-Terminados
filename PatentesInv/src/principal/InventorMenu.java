@@ -175,12 +175,12 @@ public class InventorMenu {
         
         do {
             System.out.println("------------------------------------");
-            System.out.println("          MENU DE DESTINOS          ");
+            System.out.println("          MENU DE INVENTOR          ");
             System.out.println("------------------------------------");
-            System.out.println("- 1. Alta de destinos              -");
-            System.out.println("- 2. Baja de destinos (lógica)     -");
-            System.out.println("- 3. Modificacion de destinos      -");
-            System.out.println("- 4. Listar destinos activos       -");
+            System.out.println("- 1. Alta de inventor              -");
+            System.out.println("- 2. Baja de inventor (lógica)     -");
+            System.out.println("- 3. Modificacion de inventor      -");
+            System.out.println("- 4. Listar inventor activos       -");
             System.out.println("- 0. Salir                         -");
             System.out.println("------------------------------------");
             System.out.print("--> ");
