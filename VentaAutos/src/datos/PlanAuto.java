@@ -134,7 +134,7 @@ public class PlanAuto implements Grabable {
     }
     
     private void cargarOrden() {
-        boolean flag = true;
+        boolean flag = false;
         while (!flag) {            
             try {
                 System.out.print("Orden:");
